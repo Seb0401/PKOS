@@ -1,0 +1,20 @@
+# ── Privado / contexto para IA ─────────────────────────────
+# Prompts, conversaciones y material auxiliar de sesiones con Claude.
+# La documentación oficial (README, docs/, CLAUDE.md, vault/) SÍ se versiona.
+.context/
+_private/
+*.private.md
+.claude/settings.local.json
+
+# ── Obsidian: estado volátil local ─────────────────────────
+# La configuración compartible (app.json, plugins) sí se versiona;
+# solo se ignora el estado de sesión de cada máquina y la papelera.
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/cache/
+vault/.trash/
+
+# ── Sistema operativo ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
