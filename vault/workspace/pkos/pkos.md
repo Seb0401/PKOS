@@ -30,6 +30,8 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 - [[DEC-0001-markdown-como-fuente-de-verdad|DEC-0001]] — Markdown + YAML como fuente de verdad.
 - [[DEC-0002-wikilinks-y-nombres-unicos|DEC-0002]] — Wikilinks con nombres únicos.
+- [[DEC-0003-autoria-unica-de-commits|DEC-0003]] — Autoría única de commits (proceso).
+- [[DEC-0004-main-inmutable-tras-bootstrap|DEC-0004]] — Main inmutable tras el bootstrap (proceso).
 
 ## Tareas
 
@@ -39,6 +41,7 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Cronología
 
+- 2026-07-07 — Gobernanza del historial de git: reescritura de `main` para eliminar coautoría y compactar el bootstrap (18 → 7 commits), registrada como [[DEC-0003-autoria-unica-de-commits|DEC-0003]] y [[DEC-0004-main-inmutable-tras-bootstrap|DEC-0004]]. La ventana de reescritura queda cerrada.
 - 2026-07-07 — Config compartida de Obsidian versionada; plantillas con `{{date}}`; primeras tools en el Toolbox ([[git]], [[obsidian]], [[markdown]]). Fricción detectada: el enum `category` no encaja bien para apps/formatos (obsidian y markdown caen en `other`) — candidato a ajuste de schema si vuelve a doler.
 - 2026-07-07 — Fase 0: diseño del sistema, documentación (`docs/`), estructura del vault, plantillas y primeras decisiones.
 
