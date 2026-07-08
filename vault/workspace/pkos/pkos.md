@@ -39,6 +39,7 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Cronología
 
+- 2026-07-07 — Config compartida de Obsidian versionada; plantillas con `{{date}}`; primeras tools en el Toolbox ([[git]], [[obsidian]], [[markdown]]). Fricción detectada: el enum `category` no encaja bien para apps/formatos (obsidian y markdown caen en `other`) — candidato a ajuste de schema si vuelve a doler.
 - 2026-07-07 — Fase 0: diseño del sistema, documentación (`docs/`), estructura del vault, plantillas y primeras decisiones.
 
 ## Ideas / Backlog

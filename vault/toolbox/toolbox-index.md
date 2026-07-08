@@ -15,4 +15,6 @@ Ciclo de vida: `evaluating → adopted / discarded → deprecated` (tech radar p
 
 | Herramienta | Categoría | Estado | Problema que resuelve |
 |---|---|---|---|
-| — | | | |
+| [[git]] | devops | adopted | Control de versiones distribuido |
+| [[obsidian]] | other | adopted | Interfaz sobre notas Markdown locales |
+| [[markdown]] | other | adopted | Texto plano estructurado y longevo |
