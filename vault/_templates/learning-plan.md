@@ -1,8 +1,8 @@
 ---
 type: learning-plan
 title:
-created:
-updated:
+created: {{date}}
+updated: {{date}}
 status: planned
 goal:
 certification:

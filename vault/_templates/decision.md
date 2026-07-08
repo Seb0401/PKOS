@@ -2,10 +2,10 @@
 type: decision
 id: DEC-NNNN
 title:
-created:
-updated:
+created: {{date}}
+updated: {{date}}
 status: proposed
-date:
+date: {{date}}
 scope: tooling
 context-of:
 supersedes:

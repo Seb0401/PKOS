@@ -1,8 +1,8 @@
 ---
 type: tool
 title:
-created:
-updated:
+created: {{date}}
+updated: {{date}}
 status: evaluating
 category: other
 problem:

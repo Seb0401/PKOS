@@ -1,8 +1,8 @@
 ---
 type: project
 title:
-created:
-updated:
+created: {{date}}
+updated: {{date}}
 status: idea
 area: personal
 started:

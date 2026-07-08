@@ -35,6 +35,7 @@ Los tags son la taxonomía **transversal** (cruzan módulos); las carpetas son l
 |---|---|
 | `_templates/` | Plantillas de cada tipo. El prefijo `_` las agrupa arriba y las excluye visualmente del conocimiento. |
 | `_dashboards/` | (futura) Vistas generadas con Dataview. Separadas porque son *derivadas*: se pueden borrar y regenerar; jamás contienen información original. |
+| `_attachments/` | Imágenes y adjuntos. Una sola carpeta plana: los adjuntos se referencian desde las notas, no se navegan. |
 
 ## Regla de oro ante la duda
 
