@@ -43,6 +43,8 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Cronología
 
+- 2026-07-12 — **Primer código del sistema** ([[DEC-0007-primer-codigo-pkos-stats|DEC-0007]]): `tools/pkos_stats.py` genera un dashboard HTML derivado (tech radar visual, WIP, progreso de planes, mini-lint). El lint cazó su primer defecto real en DEC-0002 y aprendió 2 reglas de parseo (código inline, pipes escapados).
+- 2026-07-12 — Primer triage del Radar: promovidas las 5 tools ya en uso (testing deja de ser categoría vacía). Fase 3 arrancada: [[plan-docker]] como primer learning-plan, con meta concreta ([[n8n]] self-hosted para la fase B del Radar).
 - 2026-07-12 — [[DEC-0006-radar-de-descubrimiento|DEC-0006]] aceptada y primera corrida manual del Radar: digest en `_inbox/`, carpeta registrada en las convenciones. Hallazgo meta: 5 herramientas que ya uso (Vitest, Playwright, Prisma, Zod, pnpm) no estaban en el Toolbox — el radar sirve también hacia adentro.
 - 2026-07-12 — Fase 2: alta de los 5 proyectos activos ([[methodlife]], [[tracereq]], [[vibelearning]], [[codventure]], [[rpgso]]) y de 5 tools de su stack ([[nextjs]], [[supabase]], [[tailwind]], [[flask]], [[vite]]). Fricción observada (1ª vez): el enum `area` no tiene valor claro para proyectos universitarios — se usó `work`; si vuelve a doler, candidato a DEC.
 - 2026-07-12 — Primer cambio real del contrato de datos: [[DEC-0005-ampliar-enum-category|DEC-0005]] amplía el enum `category` (`runtime`, `app`, `format`) tras la segunda fricción — la regla de "doler dos veces" funcionó. Alta del stack real completo en el Toolbox (16 herramientas).

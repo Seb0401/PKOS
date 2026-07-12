@@ -13,18 +13,18 @@ updated: 2026-07-12
 
 <!-- Mantenido a mano; en la fase 4 será una query de Dataview. -->
 
-- 🔥 **Foco**: cerrar el primer ciclo del Radar (triar [[2026-07-12-radar]]) y arrancar el Learning Hub.
-- 📥 **Pendiente de triage**: 1 digest en `_inbox/`.
+- 🔥 **Foco**: [[plan-docker]] (fundamentos → n8n) y terminar el triage de [[2026-07-12-radar]] (secciones 3-4).
+- 📥 **Pendiente de triage**: 1 digest en `_inbox/` (sección 1 ya promovida).
 - ⚖️ **Última decisión**: [[DEC-0006-radar-de-descubrimiento|DEC-0006]] — Radar de descubrimiento (accepted).
-- 🗺️ **Roadmap**: Fases 0-2 completas · Fase 3 (Learning Hub) sin arrancar.
+- 🗺️ **Roadmap**: Fases 0-2 completas · Fase 3 (Learning Hub) arrancada con [[plan-docker]].
 
 ## Módulos
 
 | | Módulo | Qué guarda | Estado |
 |---|---|---|---|
 | 🗂️ | [[workspace-index\|Workspace]] | Proyectos: docs, tareas, cronología, stack | 6 proyectos activos |
-| 📚 | [[learning-index\|Learning Hub]] | Planes de estudio, certificaciones, progreso | vacío — fase 3 |
-| 🧰 | [[toolbox-index\|Toolbox]] | Tech radar personal: herramientas y experiencia | 25 herramientas |
+| 📚 | [[learning-index\|Learning Hub]] | Planes de estudio, certificaciones, progreso | 1 plan en curso |
+| 🧰 | [[toolbox-index\|Toolbox]] | Tech radar personal: herramientas y experiencia | 30 herramientas |
 | ⚖️ | [[decisions-index\|Decision Journal]] | Decisiones con contexto, alternativas y lecciones | 6 decisiones |
 
 ## Flujos del sistema
