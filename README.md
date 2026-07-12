@@ -27,7 +27,9 @@ PKOS/
 │   ├── learning/
 │   ├── toolbox/
 │   ├── decisions/
+│   ├── _inbox/      Digests del Radar pendientes de triage (DEC-0006)
 │   └── _templates/
+├── tools/         Scripts que derivan vistas del vault (pkos_stats.py → HTML)
 ├── CLAUDE.md      Contexto para sesiones de trabajo con IA
 └── README.md
 ```

@@ -49,10 +49,10 @@ Solo cuando los cuatro módulos tienen uso real — automatizar un flujo que no 
 
 ## Fase 5 — Contrato verificable
 
-El puente hacia la app propia.
+El puente hacia la app propia. *Parcialmente adelantada (DEC-0007): `tools/pkos_stats.py` ya parsea el vault contra el contrato e incluye un mini-lint; esta fase lo formaliza.*
 
-- [ ] JSON Schemas formales en `schemas/` (uno por tipo)
-- [ ] CLI `pkos lint`: valida frontmatter, detecta wikilinks rotos y nombres duplicados
+- [ ] JSON Schemas formales en `schemas/` (uno por tipo) — hoy los enums viven duplicados en docs y en el script: esta es la deuda que salda
+- [ ] CLI `pkos lint`: valida frontmatter, detecta wikilinks rotos y nombres duplicados (extraer del mini-lint de `pkos_stats.py`)
 - [ ] (Opcional) CI en GitHub Actions que ejecuta el lint en cada push
 
 ## Fase 6 — Aplicación propia
