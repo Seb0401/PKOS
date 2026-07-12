@@ -1,0 +1,60 @@
+/* ============================================================
+   PKOS — identidad visual por módulo
+   Capa de PRESENTACIÓN: si este archivo desaparece, no se
+   pierde información (regla de docs/01-architecture.md).
+
+   Paleta:
+     workspace  → azul     #3b82f6
+     learning   → verde    #22c55e
+     toolbox    → ámbar    #f59e0b
+     decisions  → violeta  #a855f7
+     _inbox     → rojo     #ef4444  (pide triage)
+   ============================================================ */
+
+:root {
+  --pkos-workspace: #3b82f6;
+  --pkos-learning: #22c55e;
+  --pkos-toolbox: #f59e0b;
+  --pkos-decisions: #a855f7;
+  --pkos-inbox: #ef4444;
+}
+
+/* ── Explorador: carpetas de módulo coloreadas y en negrita ── */
+.nav-folder-title[data-path="workspace"] { color: var(--pkos-workspace); font-weight: 600; }
+.nav-folder-title[data-path="learning"]  { color: var(--pkos-learning);  font-weight: 600; }
+.nav-folder-title[data-path="toolbox"]   { color: var(--pkos-toolbox);   font-weight: 600; }
+.nav-folder-title[data-path="decisions"] { color: var(--pkos-decisions); font-weight: 600; }
+.nav-folder-title[data-path="_inbox"]    { color: var(--pkos-inbox);     font-weight: 600; }
+
+/* Carpetas auxiliares, atenuadas */
+.nav-folder-title[data-path="_templates"],
+.nav-folder-title[data-path="_attachments"] {
+  opacity: 0.55;
+}
+
+/* ── Explorador: borde lateral sutil en el contenido de cada módulo ── */
+.nav-folder-title[data-path="workspace"] + .nav-folder-children { border-left: 2px solid var(--pkos-workspace); }
+.nav-folder-title[data-path="learning"]  + .nav-folder-children { border-left: 2px solid var(--pkos-learning); }
+.nav-folder-title[data-path="toolbox"]   + .nav-folder-children { border-left: 2px solid var(--pkos-toolbox); }
+.nav-folder-title[data-path="decisions"] + .nav-folder-children { border-left: 2px solid var(--pkos-decisions); }
+.nav-folder-title[data-path="_inbox"]    + .nav-folder-children { border-left: 2px solid var(--pkos-inbox); }
+
+/* ── Tags como píldoras suaves ── */
+.tag, a.tag {
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  border-radius: 10px;
+  padding: 1px 8px;
+  font-size: 0.85em;
+}
+
+/* ── Tablas de los dashboards: cabecera con más presencia ── */
+.markdown-rendered thead tr {
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+
+/* ── Checkboxes completados: verde en vez de gris ── */
+.markdown-rendered input[type="checkbox"]:checked,
+input.task-list-item-checkbox:checked {
+  accent-color: var(--pkos-learning);
+}
