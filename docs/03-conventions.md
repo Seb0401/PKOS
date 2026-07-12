@@ -36,6 +36,7 @@ Los tags son la taxonomía **transversal** (cruzan módulos); las carpetas son l
 | `_templates/` | Plantillas de cada tipo. El prefijo `_` las agrupa arriba y las excluye visualmente del conocimiento. |
 | `_dashboards/` | (futura) Vistas generadas con Dataview. Separadas porque son *derivadas*: se pueden borrar y regenerar; jamás contienen información original. |
 | `_attachments/` | Imágenes y adjuntos. Una sola carpeta plana: los adjuntos se referencian desde las notas, no se navegan. |
+| `_inbox/` | Digests del Radar de descubrimiento (DEC-0006), `YYYY-MM-DD-radar.md`. Materia prima *pendiente de triage*: nada aquí es fuente de verdad ni sigue los schemas del contrato — `pkos lint` la excluirá. Se vacía al triar. |
 
 ## Regla de oro ante la duda
 
