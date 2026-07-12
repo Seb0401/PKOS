@@ -2,9 +2,9 @@
 type: tool
 title: Markdown (CommonMark)
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-12
 status: adopted
-category: other
+category: format
 problem: Formato de texto plano legible por humanos y parseable por máquinas para contenido estructurado que debe sobrevivir décadas a cualquier aplicación
 alternatives: []
 integrates-with: ["[[git]]", "[[obsidian]]"]

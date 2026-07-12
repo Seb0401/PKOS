@@ -19,5 +19,6 @@ Una decisión = un archivo `decisions/DEC-NNNN-<slug>.md` (schema `decision`, fo
 | [[DEC-0002-wikilinks-y-nombres-unicos\|DEC-0002]] | Wikilinks con nombres de archivo únicos | accepted | architecture | 2026-07-07 |
 | [[DEC-0003-autoria-unica-de-commits\|DEC-0003]] | Autoría única de commits: la IA prepara, el humano commitea | accepted | process | 2026-07-07 |
 | [[DEC-0004-main-inmutable-tras-bootstrap\|DEC-0004]] | Historial de main inmutable tras el bootstrap | accepted | process | 2026-07-07 |
+| [[DEC-0005-ampliar-enum-category\|DEC-0005]] | Ampliar el enum category con runtime, app y format | accepted | architecture | 2026-07-12 |
 
-**Próximo ID libre: DEC-0005**
+**Próximo ID libre: DEC-0006**

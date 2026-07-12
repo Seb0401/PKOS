@@ -2,9 +2,9 @@
 type: tool
 title: Obsidian
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-12
 status: adopted
-category: other
+category: app
 problem: Interfaz de edición, navegación por enlaces y visualización sobre una carpeta local de notas Markdown, sin poseer los datos
 alternatives: []
 integrates-with: ["[[git]]", "[[markdown]]"]

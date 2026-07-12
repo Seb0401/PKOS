@@ -70,7 +70,7 @@ Archivo plano: `vault/toolbox/<slug>.md`. Sin subcarpetas: la clasificación la 
 ```yaml
 type: tool
 status: evaluating | adopted | deprecated | discarded
-category: language | framework | database | devops | testing | ai | service | cli | library | other
+category: language | framework | database | devops | testing | ai | service | cli | library | runtime | app | format | other
 problem: Qué problema resuelve, en una frase     # ⭐ el campo más valioso del Toolbox
 alternatives: ["[[otra-tool]]"]
 integrates-with: ["[[otra-tool]]"]
