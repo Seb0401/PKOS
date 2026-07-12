@@ -44,7 +44,7 @@ Relaciones entre notas del vault: wikilinks `[[slug]]` (en frontmatter, siempre 
 
 - El vault no renderiza perfecto en GitHub (los wikilinks se ven como texto). Irrelevante: GitHub no es una interfaz objetivo.
 - La futura herramienta `pkos lint` (fase 5) debe verificar unicidad de nombres y detectar wikilinks huérfanos.
-- Configurar Obsidian con "Use [[Wikilinks]]" activado y ruta de nuevos enlaces por nombre de archivo.
+- Configurar Obsidian con `Use [[Wikilinks]]` activado y ruta de nuevos enlaces por nombre de archivo.
 
 ## Lecciones aprendidas
 
