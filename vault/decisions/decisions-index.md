@@ -2,7 +2,7 @@
 type: dashboard
 title: Decision Journal
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-12
 ---
 
 # ⚖️ Decision Journal
@@ -10,6 +10,12 @@ updated: 2026-07-07
 Una decisión = un archivo `decisions/DEC-NNNN-<slug>.md` (schema `decision`, formato ADR extendido). ID secuencial global e inmutable. Plantilla: `_templates/decision.md`.
 
 **Método**: registrar la decisión cuando se toma; volver a los 3-6 meses a rellenar "Lecciones aprendidas".
+
+Ciclo de vida: `proposed → accepted → superseded / deprecated`. Ámbitos: `architecture` (el sistema), `tooling`, `process` (cómo se trabaja), `career`, `learning`.
+
+## Revisiones programadas
+
+- [ ] ~2026-10 — Lecciones aprendidas de DEC-0001 a DEC-0006
 
 ## Registro
 
