@@ -43,6 +43,7 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Cronología
 
+- 2026-07-12 — [[DEC-0006-radar-de-descubrimiento|DEC-0006]] aceptada y primera corrida manual del Radar: digest en `_inbox/`, carpeta registrada en las convenciones. Hallazgo meta: 5 herramientas que ya uso (Vitest, Playwright, Prisma, Zod, pnpm) no estaban en el Toolbox — el radar sirve también hacia adentro.
 - 2026-07-12 — Fase 2: alta de los 5 proyectos activos ([[methodlife]], [[tracereq]], [[vibelearning]], [[codventure]], [[rpgso]]) y de 5 tools de su stack ([[nextjs]], [[supabase]], [[tailwind]], [[flask]], [[vite]]). Fricción observada (1ª vez): el enum `area` no tiene valor claro para proyectos universitarios — se usó `work`; si vuelve a doler, candidato a DEC.
 - 2026-07-12 — Primer cambio real del contrato de datos: [[DEC-0005-ampliar-enum-category|DEC-0005]] amplía el enum `category` (`runtime`, `app`, `format`) tras la segunda fricción — la regla de "doler dos veces" funcionó. Alta del stack real completo en el Toolbox (16 herramientas).
 - 2026-07-12 — Obsidian verificado sobre el vault (plantillas con `{{date}}` funcionando). Fase 0 cerrada; comienza el grueso de la Fase 1: poblar el Toolbox con el stack real.
@@ -52,6 +53,7 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Ideas / Backlog
 
+- Radar ([[DEC-0006-radar-de-descubrimiento|DEC-0006]]): tras 3-4 corridas manuales, automatizar la recolección con [[n8n]] en [[docker]] (fase B).
 - `pkos lint`: validador de frontmatter y wikilinks (fase 5).
 - Dashboard con Dataview cuando haya volumen real (fase 4).
 

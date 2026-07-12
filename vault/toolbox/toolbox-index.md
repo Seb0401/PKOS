@@ -24,10 +24,16 @@ Ciclo de vida: `evaluating → adopted / discarded → deprecated` (tech radar p
 | [[typescript]] | language | adopted | JavaScript con tipado estático |
 | [[react]] | library | adopted | UI como componentes declarativos |
 | [[express]] | framework | adopted | Framework web minimalista para Node.js |
+| [[flask]] | framework | adopted | Microframework web de Python |
+| [[nextjs\|Next.js]] | framework | adopted | Framework full-stack sobre React |
+| [[tailwind\|Tailwind]] | framework | adopted | CSS mediante clases utilitarias |
 | [[nodejs\|Node.js]] | runtime | adopted | Ejecutar JavaScript fuera del navegador |
 | [[mysql\|MySQL/MariaDB]] | database | adopted | Relacional clásica del stack web |
 | [[postgresql]] | database | adopted | Relacional open source de referencia |
 | [[mongodb]] | database | adopted | Documental con JSON flexible |
+| [[supabase]] | service | adopted | Backend-as-a-service sobre PostgreSQL |
+| [[n8n]] | service | evaluating | Automatización de flujos self-hosted |
+| [[vite]] | cli | adopted | Dev server y build de frontend instantáneos |
 | [[git]] | devops | adopted | Control de versiones distribuido |
 | [[docker]] | devops | evaluating | Entornos reproducibles en contenedores |
 | [[claude-ai\|Claude]] | ai | adopted | Asistente de IA para programar y aprender en pareja |
