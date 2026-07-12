@@ -15,13 +15,12 @@ Ciclo de vida: `planned → in-progress → done / abandoned` (abandonar y regis
 
 | Plan | Estado | Objetivo | Deadline |
 |---|---|---|---|
-| — | | | |
+| [[plan-docker\|Docker]] | in-progress | Self-hostear [[n8n]] con compose (fase B del Radar) | — |
 
 ## Candidatos detectados
 
-El resto del sistema ya señala qué merece un plan (fase 3 del roadmap — arrancar con **uno**, no con todos):
+El resto del sistema ya señala qué merece un plan (uno a la vez — el WIP también aplica a aprender):
 
-- 🐳 **Docker** — [[docker]] está `evaluating` con nota "en aprendizaje"; la fase B del Radar ([[DEC-0006-radar-de-descubrimiento|DEC-0006]]) le da un objetivo concreto: self-hostear [[n8n]].
 - 🧮 **Estructuras de datos y algoritmos** — [[codventure]] lo convierte en simbiosis: construir el juego practica lo que el juego enseña.
 - 💾 **Sistemas operativos** — [[rpgso]] necesita scheduler, memoria virtual y filesystem de verdad para simularlos.
 - 🧪 **Testing serio** — categoría vacía del Toolbox; Vitest/Playwright ya usados en [[methodlife]] sin estudio formal.
