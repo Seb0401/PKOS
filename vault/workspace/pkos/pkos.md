@@ -8,7 +8,7 @@ area: personal
 started: 2026-07-07
 finished:
 stack: ["[[obsidian]]", "[[git]]", "[[markdown]]", "[[vscode]]", "[[claude-ai]]"]
-repo:
+repo: https://github.com/Seb0401/PKOS
 links: []
 tags: [topic/pkos]
 aliases: [PKOS]
@@ -43,6 +43,7 @@ Sistema personal de gestión de conocimiento en Markdown plano, independiente de
 
 ## Cronología
 
+- 2026-07-12 — Fase 2: alta de los 5 proyectos activos ([[methodlife]], [[tracereq]], [[vibelearning]], [[codventure]], [[rpgso]]) y de 5 tools de su stack ([[nextjs]], [[supabase]], [[tailwind]], [[flask]], [[vite]]). Fricción observada (1ª vez): el enum `area` no tiene valor claro para proyectos universitarios — se usó `work`; si vuelve a doler, candidato a DEC.
 - 2026-07-12 — Primer cambio real del contrato de datos: [[DEC-0005-ampliar-enum-category|DEC-0005]] amplía el enum `category` (`runtime`, `app`, `format`) tras la segunda fricción — la regla de "doler dos veces" funcionó. Alta del stack real completo en el Toolbox (16 herramientas).
 - 2026-07-12 — Obsidian verificado sobre el vault (plantillas con `{{date}}` funcionando). Fase 0 cerrada; comienza el grueso de la Fase 1: poblar el Toolbox con el stack real.
 - 2026-07-07 — Gobernanza del historial de git: reescritura de `main` para eliminar coautoría y compactar el bootstrap (18 → 7 commits), registrada como [[DEC-0003-autoria-unica-de-commits|DEC-0003]] y [[DEC-0004-main-inmutable-tras-bootstrap|DEC-0004]]. La ventana de reescritura queda cerrada.
