@@ -44,4 +44,4 @@ aliases: []
 
 ## Notas de experiencia
 
-- **En aprendizaje (2026-07-12)** — por eso `status: evaluating`. Pasará a `adopted` cuando lo use con soltura en un proyecto real. Candidato a `learning-plan` en el Learning Hub (fase 3).
+- **En aprendizaje (2026-07-12)** — por eso `status: evaluating`. Pasará a `adopted` cuando lo use con soltura en un proyecto real. Plan de estudio activo: [[plan-docker]].

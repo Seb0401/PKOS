@@ -34,6 +34,8 @@ Ciclo de vida (tech radar personal): `evaluating → adopted / discarded → dep
 | [[express]] | framework | adopted | Framework web minimalista para Node.js |
 | [[flask]] | framework | adopted | Microframework web de Python |
 | [[vite]] | cli | adopted | Dev server y build de frontend instantáneos |
+| [[zod]] | library | adopted | Validación runtime que genera tipos TypeScript |
+| [[pnpm]] | cli | adopted | Gestor de paquetes rápido y eficiente en disco |
 
 ## 🗄️ Datos
 
@@ -43,6 +45,14 @@ Ciclo de vida (tech radar personal): `evaluating → adopted / discarded → dep
 | [[mysql\|MySQL/MariaDB]] | database | adopted | Relacional clásica del stack web |
 | [[mongodb]] | database | adopted | Documental con JSON flexible |
 | [[supabase]] | service | adopted | Backend-as-a-service sobre PostgreSQL |
+| [[prisma]] | library | adopted | ORM tipado con migraciones para Node/TypeScript |
+
+## 🧪 Testing
+
+| Herramienta | Estado | Problema que resuelve |
+|---|---|---|
+| [[vitest]] | adopted | Test runner rápido nativo de TypeScript/ESM |
+| [[playwright]] | adopted | Tests end-to-end en navegadores reales |
 
 ## ⚙️ DevOps y automatización
 
@@ -68,4 +78,4 @@ Ciclo de vida (tech radar personal): `evaluating → adopted / discarded → dep
 
 ## Huecos conocidos
 
-- **testing**: categoría vacía — Vitest y Playwright (ya en uso en MethodLife) esperan triage en el Radar.
+- *(ninguno detectado — la categoría testing se llenó con el primer triage del Radar, 2026-07-12)*
