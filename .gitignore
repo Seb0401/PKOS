@@ -15,6 +15,9 @@ vault/.obsidian/cache/
 vault/.obsidian/graph.json
 vault/.trash/
 
+# ── Vistas derivadas (se regeneran, no se versionan) ───────
+tools/out/
+
 # ── Sistema operativo ──────────────────────────────────────
 .DS_Store
 Thumbs.db

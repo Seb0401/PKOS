@@ -27,5 +27,6 @@ Ciclo de vida: `proposed → accepted → superseded / deprecated`. Ámbitos: `a
 | [[DEC-0004-main-inmutable-tras-bootstrap\|DEC-0004]] | Historial de main inmutable tras el bootstrap | accepted | process | 2026-07-07 |
 | [[DEC-0005-ampliar-enum-category\|DEC-0005]] | Ampliar el enum category con runtime, app y format | accepted | architecture | 2026-07-12 |
 | [[DEC-0006-radar-de-descubrimiento\|DEC-0006]] | Radar de descubrimiento: pipeline de entrada al Toolbox | accepted | process | 2026-07-12 |
+| [[DEC-0007-primer-codigo-pkos-stats\|DEC-0007]] | Primer código: pkos stats como embrión del parser | accepted | architecture | 2026-07-12 |
 
-**Próximo ID libre: DEC-0007**
+**Próximo ID libre: DEC-0008**
